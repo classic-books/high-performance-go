@@ -1,23 +1,13 @@
 ---
 title: 减小 Go 代码编译后的二进制体积
-seo_title: Go 语言高性能编程
-date: 2020-12-06 23:00:00
 description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。介绍了 2 种方式(编译选项和 UPX 工具) 来减小 Go 代码编译后的二进制文件/可执行文件的体积/大小。
+date: '2020-12-07 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 编译优化
-keywords:
-- golang
-- upx
-- 程序体积
-- 二进制大小
-image: post/hpg-reduce-size/compiler.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 减小编译体积
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-4/hpg-reduce-size.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-reduce-size/compiler.jpg
 ---
 
 ![golang compiler optimization](hpg-reduce-size/compiler.jpg)

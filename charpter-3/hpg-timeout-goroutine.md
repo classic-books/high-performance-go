@@ -1,22 +1,15 @@
 ---
 title: 如何退出协程 goroutine (超时场景)
-seo_title: Go 语言高性能编程
-date: 2020-12-12 20:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了 Go 语言中实现超时(timeout)退出时常见的错误，即子协程(goroutine)不能正常关闭，导致内存泄漏。常见的实现超时的方式有 time.After 和 context.WithTimeout。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了 Go
+  语言中实现超时(timeout)退出时常见的错误，即子协程(goroutine)不能正常关闭，导致内存泄漏。常见的实现超时的方式有 time.After 和 context.WithTimeout。
+date: '2020-12-13 04:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- time.After
-- WithTimeout
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 如何退出协程(超时场景)
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-timeout-goroutine.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)

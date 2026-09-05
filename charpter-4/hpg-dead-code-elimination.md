@@ -1,23 +1,15 @@
 ---
 title: Go 死码消除与调试(debug)模式
-seo_title: Go 语言高性能编程
-date: 2021-01-11 01:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了编译器在死码消除(Dead code elimination, DCE) 方面的优化，在实际编程中如何利用这一优化提高程序性能。并结合构建标记(build tags) 增加调试模式。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了编译器在死码消除(Dead code elimination, DCE)
+  方面的优化，在实际编程中如何利用这一优化提高程序性能。并结合构建标记(build tags) 增加调试模式。
+date: '2021-01-11 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 编译优化
-keywords:
-- golang
-- 死码消除
-- 死代码
-- Dead code elimination
-image: post/hpg-reduce-size/compiler.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 死码消除与调试模式
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-4/hpg-dead-code-elimination.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-reduce-size/compiler.jpg
 ---
 
 ![golang compiler optimization](hpg-reduce-size/compiler.jpg)
@@ -320,4 +312,3 @@ $ ./release
 
 - [Go 语言笔试面试题汇总](https://geektutu.com/post/qa-golang.html)
 - [七天用Go从零实现系列](https://geektutu.com/post/gee.html)
-

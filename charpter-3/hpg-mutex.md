@@ -1,22 +1,13 @@
 ---
 title: 读写锁和互斥锁的性能比较
-seo_title: Go 语言高性能编程
-date: 2020-12-05 23:00:00
 description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。介绍了读写锁(sync.RWMutex)和互斥锁(sync.Mutex)在不同的读写比情况下的性能开销。
+date: '2020-12-06 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- sync.Mutex
-- sync.RWMutex
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 读写锁和互斥锁的性能比较
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-mutex.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)

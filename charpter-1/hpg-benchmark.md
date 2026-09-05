@@ -1,22 +1,16 @@
 ---
 title: benchmark 基准测试
-seo_title: Go 语言高性能编程
-date: 2020-11-17 01:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍如何测试/评估 Go 代码的性能，内容包括使用 testing 库进行基准测试(benchmark)，性能分析(profiling) 编译优化(compiler optimisations)，内存管理(memory management)和垃圾回收(garbage collect)、pprof 等内容。同时也介绍了使用 Go 语言如何写出高性能的程序和应用，包括不限于 Go 语言标准库、第三方库的使用方式和最佳实践。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍如何测试/评估 Go 代码的性能，内容包括使用 testing
+  库进行基准测试(benchmark)，性能分析(profiling) 编译优化(compiler optimisations)，内存管理(memory management)和垃圾回收(garbage collect)、pprof
+  等内容。同时也介绍了使用 Go 语言如何写出高性能的程序和应用，包括不限于 Go 语言标准库、第三方库的使用方式和最佳实践。
+date: '2020-11-17 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 性能分析
-keywords:
-- golang
-- benchmark
-- 性能分析
-image: post/hpg-benchmark/benchmark.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: benchmark 基准测试
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-1/hpg-benchmark.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-benchmark/benchmark.jpg
 ---
 
 ![benchmark & profiling - high performance with go](hpg-benchmark/benchmark.jpg)

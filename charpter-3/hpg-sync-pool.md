@@ -1,22 +1,15 @@
 ---
 title: Go sync.Pool
-seo_title: Go 语言高性能编程
-date: 2020-12-31 23:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。Go 语言标准库中的 sync.Pool 可以建立对象池，复用已有对象，解决内存分配碎片化的问题，有效减轻垃圾回收的压力(Garbage Collection, GC)，在特定场景下可以有效地降低内存占用，提升性能。最后介绍了 sync.Pool 的作用和用法。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。Go 语言标准库中的 sync.Pool
+  可以建立对象池，复用已有对象，解决内存分配碎片化的问题，有效减轻垃圾回收的压力(Garbage Collection, GC)，在特定场景下可以有效地降低内存占用，提升性能。最后介绍了 sync.Pool 的作用和用法。
+date: '2021-01-01 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- sync.Pool
-- 内存碎片
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: sync.Pool 复用对象
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-sync-pool.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)
@@ -217,6 +210,3 @@ func Printf(format string, a ...interface{}) (n int, err error) {
 
 - [Go 语言笔试面试题汇总](https://geektutu.com/post/qa-golang.html)
 - [七天用Go从零实现系列](https://geektutu.com/post/gee.html)
-
-
-

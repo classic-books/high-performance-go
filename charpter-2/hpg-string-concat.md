@@ -1,22 +1,15 @@
 ---
 title: 字符串拼接性能及原理
-seo_title: Go 语言高性能编程
-date: 2020-11-24 01:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍了构造字符串/拼接字符串(string concatation) 的 5 种方式：+, strings.Builder, bytes.Buffer, []byte 和 fmt.Sprintf，比较了这 5 种方式的性能，并且深入解释了背后的原理。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍了构造字符串/拼接字符串(string concatation) 的 5 种方式：+,
+  strings.Builder, bytes.Buffer, []byte 和 fmt.Sprintf，比较了这 5 种方式的性能，并且深入解释了背后的原理。
+date: '2020-11-24 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 常用数据结构
-keywords:
-- golang
-- 字符串拼接
-- 内存分配
-image: post/hpg-string-concat/data-structure.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 字符串拼接性能及原理
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-2/hpg-string-concat.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-string-concat/data-structure.jpg
 ---
 
 ![high performance go - data structure](hpg-string-concat/data-structure.jpg)

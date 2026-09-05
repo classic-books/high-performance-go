@@ -1,21 +1,13 @@
 ---
 title: 如何退出协程 goroutine (其他场景)
-seo_title: Go 语言高性能编程
-date: 2020-12-15 23:00:00
 description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了协程没有正常关闭导致内存泄漏的场景，并介绍了如何借助通道/信道(channel) 优雅地退出协程。
+date: '2020-12-16 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- channel
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 如何退出协程(其他场景)
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-exit-goroutine.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)
@@ -241,4 +233,3 @@ func (mc *MyChannel) SafeClose() {
 
 - [Go 语言笔试面试题汇总](https://geektutu.com/post/qa-golang.html)
 - [七天用Go从零实现系列](https://geektutu.com/post/gee.html)
-

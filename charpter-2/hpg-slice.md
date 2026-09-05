@@ -1,22 +1,15 @@
 ---
 title: 切片(slice)性能及陷阱
-seo_title: Go 语言高性能编程
-date: 2020-11-30 01:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍了切片(slice) 常用的几种操作 append、copy 等的性能及原理。并且介绍了切片的陷阱，即什么情况下会产生大量内存被占用，而没法释放的情况。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。详细介绍了切片(slice) 常用的几种操作 append、copy
+  等的性能及原理。并且介绍了切片的陷阱，即什么情况下会产生大量内存被占用，而没法释放的情况。
+date: '2020-11-30 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 常用数据结构
-keywords:
-- golang
-- slice
-- append
-image: post/hpg-string-concat/data-structure.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 切片(slice)性能及陷阱
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-2/hpg-slice.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-string-concat/data-structure.jpg
 ---
 
 ![high performance go - data structure](hpg-string-concat/data-structure.jpg)

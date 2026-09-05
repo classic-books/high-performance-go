@@ -1,22 +1,13 @@
 ---
 title: Go 空结构体 struct{} 的使用
-seo_title: Go 语言高性能编程
-date: 2020-12-25 23:00:00
 description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了使用空 struct{}/空结构体的优点：不占用内存，且具有良好的语义。
+date: '2020-12-26 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 常用数据结构
-keywords:
-- golang
-- struct{}
-- 空结构体
-image: post/hpg-string-concat/data-structure.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 使用空结构体节省内存
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-2/hpg-empty-struct.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-string-concat/data-structure.jpg
 ---
 
 ![high performance go - data structure](hpg-string-concat/data-structure.jpg)

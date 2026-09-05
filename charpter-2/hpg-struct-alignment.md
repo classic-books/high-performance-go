@@ -1,22 +1,15 @@
 ---
 title: Go struct 内存对齐
-seo_title: Go 语言高性能编程
-date: 2020-12-27 23:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了结构体(struct)占用的内存空间如何计算，为什么要字节对齐/内存对齐，Go 语言中的大小和对齐保证(size and alignment guarantees)，字节对齐和安全访问(原子访问)的关系，以及如果利用内存对齐的规律减小 struct 内存占用。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了结构体(struct)占用的内存空间如何计算，为什么要字节对齐/内存对齐，Go
+  语言中的大小和对齐保证(size and alignment guarantees)，字节对齐和安全访问(原子访问)的关系，以及如果利用内存对齐的规律减小 struct 内存占用。
+date: '2020-12-28 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 常用数据结构
-keywords:
-- golang
-- 字节对齐
-- 内存对齐
-image: post/hpg-string-concat/data-structure.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 内存对齐对性能的影响
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-2/hpg-struct-alignment.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-string-concat/data-structure.jpg
 ---
 
 ![high performance go - data structure](hpg-string-concat/data-structure.jpg)

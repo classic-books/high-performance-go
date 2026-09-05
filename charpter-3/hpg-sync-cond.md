@@ -1,22 +1,15 @@
 ---
 title: Go sync.Cond
-seo_title: Go 语言高性能编程
-date: 2021-01-14 23:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。sync.Cond 是一个条件锁，也被称为条件变量，常用来一写多读(一个 goroutine 通知多个在等待的 goroutines)的场景。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。sync.Cond 是一个条件锁，也被称为条件变量，常用来一写多读(一个 goroutine 通知多个在等待的
+  goroutines)的场景。
+date: '2021-01-15 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- sync.Cond
-- 条件变量
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: sync.Cond 条件变量
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-sync-cond.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)

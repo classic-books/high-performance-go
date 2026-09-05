@@ -1,23 +1,15 @@
 ---
 title: Go 语言陷阱 - 数组和切片
-seo_title: Go 语言高性能编程
-date: 2020-12-07 01:00:00
-description: Go 语言/golang 高性能编程(high performance go)，Go 语言进阶教程，Go 语言陷阱(gotchas)。这篇文章介绍了 Go 语言中数组(Array) 和切片(Slice)的常见陷阱和规避方式。例如数组作为参数，修改参数，原数组不会发生改变。
+description: >-
+  Go 语言/golang 高性能编程(high performance go)，Go 语言进阶教程，Go 语言陷阱(gotchas)。这篇文章介绍了 Go 语言中数组(Array)
+  和切片(Slice)的常见陷阱和规避方式。例如数组作为参数，修改参数，原数组不会发生改变。
+date: '2020-12-07 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 语言陷阱
-keywords:
-- golang
-- array
-- 值类型
-- value type
-image: post/hpg-gotchas-array-slice/gotchas.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 数组和切片
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-a1/hpg-gotchas-array-slice.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-gotchas-array-slice/gotchas.jpg
 ---
 
 ![golang gotchas](hpg-gotchas-array-slice/gotchas.jpg)

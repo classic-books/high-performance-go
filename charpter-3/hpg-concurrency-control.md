@@ -1,22 +1,16 @@
 ---
 title: 控制协程(goroutine)的并发数量
-seo_title: Go 语言高性能编程
-date: 2020-12-21 01:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了 goroutine 协程并发控制，避免并发过高，大量消耗系统资源，导致程序崩溃或卡顿，影响性能。主要通过 2 种方式控制，一是使用 channel 的缓冲区，二是使用第三方协程池，例如 tunny 和 ants。同时介绍了使用 ulimit 和虚拟内存(virtual memory)提高资源上限的技巧。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文介绍了 goroutine
+  协程并发控制，避免并发过高，大量消耗系统资源，导致程序崩溃或卡顿，影响性能。主要通过 2 种方式控制，一是使用 channel 的缓冲区，二是使用第三方协程池，例如 tunny 和 ants。同时介绍了使用 ulimit
+  和虚拟内存(virtual memory)提高资源上限的技巧。
+date: '2020-12-21 09:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- channel
-- 并发控制
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 控制协程的并发数量
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-concurrency-control.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)

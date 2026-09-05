@@ -1,21 +1,15 @@
 ---
 title: Go sync.Once
-seo_title: Go 语言高性能编程
-date: 2021-01-07 23:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。sync.Once 是 Golang package 中使方法只执行一次的对象实现，作用与 init 函数类似，但也有所不同。本文还解释了 sync.Once 源码中,done 为什么作为第一个字段。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。sync.Once 是 Golang package 中使方法只执行一次的对象实现，作用与 init
+  函数类似，但也有所不同。本文还解释了 sync.Once 源码中,done 为什么作为第一个字段。
+date: '2021-01-08 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 并发编程
-keywords:
-- golang
-- sync.Once
-image: post/hpg-mutex/concurrent.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: sync.Once 如何提升性能
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-3/hpg-sync-once.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-mutex/concurrent.jpg
 ---
 
 ![high performance go - concurrent programming](hpg-mutex/concurrent.jpg)

@@ -1,21 +1,15 @@
 ---
 title: for 和 range 的性能比较
-seo_title: Go 语言高性能编程
-date: 2020-12-01 23:00:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文比较了普通的 for 循环和 range 在不同场景下的性能，并解释了背后的原理：range 迭代时返回迭代值的拷贝，如果每个迭代值占用内存过大，性能将显著地低于 for，将元素类型改为指针，能够解决这一问题。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。本文比较了普通的 for 循环和 range 在不同场景下的性能，并解释了背后的原理：range
+  迭代时返回迭代值的拷贝，如果每个迭代值占用内存过大，性能将显著地低于 for，将元素类型改为指针，能够解决这一问题。
+date: '2020-12-02 07:00:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 常用数据结构
-keywords:
-- golang
-- range
-image: post/hpg-string-concat/data-structure.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: for 和 range 的性能比较
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-2/hpg-range.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-string-concat/data-structure.jpg
 ---
 
 ![high performance go - data structure](hpg-string-concat/data-structure.jpg)

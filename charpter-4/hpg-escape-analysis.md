@@ -1,22 +1,15 @@
 ---
 title: Go 逃逸分析
-seo_title: Go 语言高性能编程
-date: 2020-12-31 00:45:00
-description: Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。介绍了 Go 内存分配逃逸分析(escape analysis)的几种典型场景，变量所使用的内存什么时候分配到栈上，什么时候分配到堆上。以及如何利用逃逸分析的原理优化代码的性能，例如传值 VS 传指针。
+description: >-
+  Go 语言/golang 高性能编程，Go 语言进阶教程，Go 语言高性能编程(high performance go)。介绍了 Go 内存分配逃逸分析(escape
+  analysis)的几种典型场景，变量所使用的内存什么时候分配到栈上，什么时候分配到堆上。以及如何利用逃逸分析的原理优化代码的性能，例如传值 VS 传指针。
+date: '2020-12-31 08:45:00'
 tags:
-- Go语言高性能编程
-nav: 高性能编程
-categories:
-- 编译优化
-keywords:
-- golang
-- 逃逸分析
-- escape analysis
-image: post/hpg-reduce-size/compiler.jpg
-github: https://github.com/geektutu/high-performance-go
-book: Go 语言高性能编程
-book_title: 逃逸分析对性能的影响
-github_page: https://github.com/geektutu/high-performance-go/blob/master/charpter-4/hpg-escape-analysis.md
+  - Go语言高性能编程
+book: high-performance-go
+status: done
+draft: false
+cover: hpg-reduce-size/compiler.jpg
 ---
 
 ![golang compiler optimization](hpg-reduce-size/compiler.jpg)
